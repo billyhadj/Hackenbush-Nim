@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on :  27 Avril 2018, 15:33:07
+    Author     : billel
+*/
+
+#BPchoix {
+    -fx-background-color: grey;
+}
+
+#BPchoix .button {
+    -fx-background-radius : 8px ; 
+    -fx-background-color: linear-gradient(#0100ff, #00fffc);
+    -fx-text-fill: whitesmoke;
+}
+#BPchoix .button:hover {
+    -fx-background-radius : 8px ; 
+    -fx-background-color: linear-gradient(#00fffc, #0100ff);
+    -fx-text-fill: whitesmoke;   
+}
+
+#BPprincipal {
+    -fx-background-color: grey;
+}
+
+#BPprincipal .button {
+    -fx-background-radius : 8px ; 
+    -fx-background-color: linear-gradient(#0100ff, #00fffc);
+    -fx-text-fill: whitesmoke;
+    
+    
+}
+#BPprincipal .button:hover {
+    -fx-background-radius : 8px ; 
+    -fx-background-color: linear-gradient(#00fffc, #0100ff);
+    -fx-text-fill: whitesmoke;
+    
+    
+}
+
+.pane
+{
+    -fx-border-insets :5;
+    -fx-border-width :3;
+    -fx-border-color : #888888
+}
